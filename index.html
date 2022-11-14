@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssfact.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="titulo">
+    <h1>ley de Gravitación Universal de Newton</h1><br>
+    <a href="#formula">CALCULADOR</a>
+    </header>
+
+    <section>
+    <h2>&nbsp;&nbsp;¿Que es?</h2>
+    <p> La ley de gravitación universal es una ley física clásica que describe la fuerza o interacción gravitatoria entre distintos cuerpos con masa, fue formulada por Isaac Newton en su libro Philosophiae Naturalis Principia Mathematica, publicado el 5 de julio de 1687, donde establece por primera vez una relación proporcional (deducida empíricamente de la observación) de la fuerza con que se atraen dos objetos con masa. Así, Newton dedujo que la fuerza con que se atraen dos cuerpos tenía que ser proporcional al producto de sus masas dividido por la distancia entre ellos al cuadrado. Para grandes distancias de separación entre cuerpos se observa que dicha fuerza actúa de manera muy aproximada como si toda la masa de cada uno de los cuerpos estuviese concentrada únicamente en su centro de gravedad, es decir, es como si dichos objetos fuesen únicamente un punto, lo cual permite reducir enormemente la complejidad de las interacciones entre cuerpos complejos.
+
+        Así, con todo esto resulta que la ley de la gravitación universal predice que la fuerza ejercida entre dos cuerpos de masas , r es igual al producto de sus masas e inversamente proporcional al cuadrado de la distancia, es decir:
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="formula.png" width="500px" >&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://concepto.de/wp-content/uploads/2019/05/ley-de-gravitacion-universal-e1559250122299.jpg" width="500px" height="200px">
+    </p>
+    <h2>&nbsp;&nbsp;Forma vectorial</h2>
+    <p>
+        Aunque en la ecuación (1) se ha detallado la dependencia del valor de la fuerza gravitatoria para dos cuerpos cualesquiera, existe una forma más general con la que poder describir completamente dicha fuerza, ya que en lugar de darnos únicamente su valor, también podemos encontrar directamente su dirección. Para ello, se convierte dicha ecuación en forma vectorial, para lo cual únicamente hay que tener en cuenta las posiciones donde se localizan ambos cuerpos, referenciados a un sistema de referencia cualquiera. De esta forma, suponiendo que ambos cuerpos se encuentran en las posiciones vendrá dada por la siguiente ecuación
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="ff.png" width="1000px">
+    </p>
+    <h2>&nbsp;&nbsp;¿Para qué los utilizamos?</h2>
+    <p>
+        La fuerza de gravedad puede estudiar en los siguientes ejemplos: La caída libre de un cuerpo en la superficie terrestre. La masa del planeta nos atrae a ella y actúa sobre nuestra masa imprimiendo una aceleración. Por eso, un objeto que cae durante un minuto impacta más fuerte que uno que lo hace durante un segundo.
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://ejerciciosdefisica.com/wp-content/uploads/2018/12/atraccion-terrestre.jpg" width="500px">
+    &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://static.wixstatic.com/media/004e6a_d0a3798c69b44baf9c7503418bd0881d~mv2.jpg/v1/fill/w_453,h_266,al_c,q_80,enc_auto/004e6a_d0a3798c69b44baf9c7503418bd0881d~mv2.jpg" width="490px">
+    </p> 
+    <a id="formula"></a>
+    <h2> &nbsp;&nbsp;Calculador de Fuerza de atraccion</h2> 
+    <p>para calcular la fuerza de atraccion entre sol y la tierra escriba &nbsp;---> "1" <br>
+       para calcular la fuerza de atraccion entre la luna y la tierra escriba &nbsp;---> "2" <br>
+       para determina cuántas veces la fuerza de atracción entre el sol y la tierra es mayor que la fuerza de atracción entre la tierra y la luna escriba &nbsp;---> "3" <br>
+    </p>  para ca
+    <div class="respuesta"> 
+        <label class="letritas"> fuerza de atracción entre :</label>
+        <input type="number" id=n>
+        <button onclick="factorial()">Calcular</button>
+        
+        <TABLE align="center">
+            <tr>
+                <td>
+                    <h5 class="letritas">Sol y Tierra :  </h5> 
+                </td>
+                <td>
+                    <div class="te" id="factorial"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="letritas"> Luna y Tierra :  </h5> 
+                </td>
+                <td>
+                    <div class="te" id="factorial2"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 class="letritas"> Diferencia :  </h5>    
+                </td>
+                <td>
+                    <div class="te" id="factorial3"></div>
+                </td>
+            </tr>
+        </TABLE> 
+    </div>
+    <br>
+    <p>la fuerza de atraccion de la tierra con el sol es 179.4137618163665 veces mayor al de la tierra y la luna</p>
+    </section>
+    <script src="javafact.js"></script>
+    
+</body>
+</html>
